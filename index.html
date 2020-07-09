@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css">
+  <title>Custom slider</title>
+</head>
+<body>
+  <ul class="names-to_slider_info" style="display: none">
+      <li>Luke Skywalker</li>
+      <li>Darth Vader</li>
+      <li>Yoda</li>
+  </ul>
+
+  <ul class="tags-to_slider_info"  style="display: none">
+      <li>
+        <ul>
+          <li>Blue saber</li>
+          <li>Jedi</li>
+          <li>Master</li>
+        </ul>
+      </li>
+      <li>
+        <ul>
+          <li>Red saber</li>
+          <li>Dark Jedi</li>
+          <li>Sith Lord</li>
+        </ul>
+      </li>
+      <li>
+        <ul>
+          <li>Green saber</li>
+          <li>Jedi</li>
+          <li>Master</li>
+        </ul>
+      </li>
+  </ul> 
+
+  <ul class="backgrounds-to_slider_info"  style="display: none">
+      <li>img/Tatuin.jpg</li>
+      <li>img/Death_star.jpg</li>
+      <li>img/Little_joda.jpg</li>
+  </ul> 
+
+  <ul class="pictures-to_slider_info"  style="display: none">
+    <li>img/Luke.png</li>
+    <li>img/DartVader.png</li>
+    <li>img/Yoda.png</li>
+  </ul>
+  <div class="projects_custom_slider">
+    <div class="projects_custom_slider-img_block-wrapper">
+      <div class="projects_custom_slider-img_block">
+        <div class="projects_custom_slider-img_block-name"><a class="project_name" href="#">Name</a>
+          <ul class="slider_tags">
+            <li><a href="#">TagName</a></li>
+            <li><a href="#">TagName</a></li>
+            <li><a href="#">TagName</a></li>
+          </ul>
+        </div>
+        <img src="" alt="project" id="main_project"> 
+      </div>
+    </div>
+    <div class="projects_custom_slider-text_block">
+      <div class="mini_projects_slider">
+        <div class="mini_projects_slider-content">
+          <div class="mini_projects_slider-current">
+              <a href="#">
+                  <img src="" alt="current-slide" id="current_project">
+              </a>
+          </div>
+          <div class="mini_projects_slider-next">
+              <a href="#" class="background-slide-href">
+                  <img src="" alt="next-slide" id="next_project">
+              </a>
+          </div>
+        </div>
+        <div class="mini_projects_slider-navigations"><a class="btn-left" href="#" id="projects_custom_slider-prev"></a><a class="btn-right" href="#" id="projects_custom_slider-next"></a>
+          <div class="progress-wrapper">
+            <div class="progress"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script
+  src="https://code.jquery.com/jquery-2.2.4.js"
+  integrity="sha256-iT6Q9iMJYuQiMWNd9lDyBUStIq/8PuOW33aOqmvFpqI="
+  crossorigin="anonymous"></script>
+  <script src="main.js"></script>
+
+  Icons made by <a href="https://www.flaticon.com/authors/lyolya" title="Lyolya">Lyolya</a> from <a href="https://www.flaticon.com/" title="Flaticon"> www.flaticon.com</a>
+
+</body>
+</html>
